@@ -1,0 +1,80 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/11.9.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   's',
+1 verbose cli   '/Users/max/Npm/ReactNative/Authenticator',
+1 verbose cli   '--no-cache' ]
+2 info using npm@6.8.0
+3 info using node@v11.9.0
+4 verbose npm-session f58de0a038684479
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly pacote directory manifest for undefined@file:/Users/max/Npm/ReactNative/Authenticator fetched in 65ms
+8 http fetch GET 200 https://registry.npmjs.org/s 142ms
+9 silly pacote range manifest for s@^0.1.1 fetched in 159ms
+10 timing stage:loadCurrentTree Completed in 2377ms
+11 silly install loadIdealTree
+12 silly install cloneCurrentTreeToIdealTree
+13 timing stage:loadIdealTree:cloneCurrentTree Completed in 16ms
+14 silly install loadShrinkwrap
+15 http fetch GET 200 https://registry.npmjs.org/authentication 37ms
+16 silly fetchPackageMetaData error for authentication@1.0.0 No matching version found for authentication@1.0.0
+17 timing stage:rollbackFailedOptional Completed in 0ms
+18 timing stage:runTopLevelLifecycles Completed in 2605ms
+19 silly saveTree SquashRanks@0.0.1
+19 silly saveTree ├─┬ @babel/core@7.5.5
+19 silly saveTree │ ├─┬ @babel/code-frame@7.5.5
+19 silly saveTree │ │ └── @babel/highlight@7.5.0
+19 silly saveTree │ ├─┬ @babel/generator@7.5.5
+19 silly saveTree │ │ └── @babel/types@7.5.5
+19 silly saveTree │ ├─┬ @babel/helpers@7.5.5
+19 silly saveTree │ │ ├─┬ @babel/template@7.4.4
+19 silly saveTree │ │ │ └── @babel/parser@7.5.5
+19 silly saveTree │ │ └─┬ @babel/traverse@7.5.5
+19 silly saveTree │ │   ├─┬ @babel/helper-function-name@7.1.0
+19 silly saveTree │ │   │ └── @babel/helper-get-function-arity@7.0.0
+19 silly saveTree │ │   ├── @babel/helper-split-export-declaration@7.4.4
+19 silly saveTree │ │   └─┬ debug@4.1.1
+19 silly saveTree │ │     └── ms@2.1.2
+19 silly saveTree │ ├── @babel/parser@7.5.5
+19 silly saveTree │ ├── @babel/template@7.4.4
+19 silly saveTree │ ├── @babel/traverse@7.5.5
+19 silly saveTree │ ├── @babel/types@7.5.5
+19 silly saveTree │ └─┬ debug@4.1.1
+19 silly saveTree │   └── ms@2.1.2
+19 silly saveTree ├── @babel/runtime@7.5.5
+19 silly saveTree ├── @react-native-community/eslint-config@0.0.3
+19 silly saveTree ├─┬ @types/jest@24.0.15
+19 silly saveTree │ └── @types/jest-diff@20.0.1
+19 silly saveTree ├─┬ @types/react-native@0.60.2
+19 silly saveTree │ ├── @types/prop-types@15.7.1
+19 silly saveTree │ └── @types/react@16.8.23
+19 silly saveTree ├─┬ @types/react-redux@7.1.1
+19 silly saveTree │ └── @types/hoist-non-react-statics@3.3.1
+19 silly saveTree ├── @types/react-test-renderer@16.8.3
+19 silly saveTree └── @types/react@16.8.23
+20 verbose type version
+21 verbose stack authentication: No matching version found for authentication@1.0.0
+21 verbose stack     at pickManifest (/usr/local/lib/node_modules/npm/node_modules/npm-pick-manifest/index.js:101:11)
+21 verbose stack     at fetchPackument.then.packument (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/fetchers/registry/manifest.js:24:14)
+21 verbose stack     at tryCatcher (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/util.js:16:23)
+21 verbose stack     at Promise._settlePromiseFromHandler (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:512:31)
+21 verbose stack     at Promise._settlePromise (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:569:18)
+21 verbose stack     at Promise._settlePromise0 (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:614:10)
+21 verbose stack     at Promise._settlePromises (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:694:18)
+21 verbose stack     at _drainQueueStep (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:138:12)
+21 verbose stack     at _drainQueue (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:131:9)
+21 verbose stack     at Async._drainQueues (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:147:5)
+21 verbose stack     at Immediate.Async.drainQueues [as _onImmediate] (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:17:14)
+21 verbose stack     at processImmediate (timers.js:637:19)
+22 verbose cwd /Users/max/ReactNative/SquashRanks
+23 verbose Darwin 18.6.0
+24 verbose argv "/usr/local/Cellar/node/11.9.0/bin/node" "/usr/local/bin/npm" "i" "s" "/Users/max/Npm/ReactNative/Authenticator" "--no-cache"
+25 verbose node v11.9.0
+26 verbose npm  v6.8.0
+27 error code ETARGET
+28 error notarget No matching version found for authentication@1.0.0
+29 error notarget In most cases you or one of your dependencies are requesting
+29 error notarget a package version that doesn't exist.
+30 verbose exit [ 1, true ]

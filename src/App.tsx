@@ -2,9 +2,10 @@ import React, { Fragment } from "react";
 import { DefaultTheme, Provider as PaperProvider } from "react-native-paper";
 import { Provider } from "react-redux";
 import store from "./services/store";
-import { StyleSheet } from "react-native";
-import { Authenticator } from "authentication";
+import { StyleSheet, View } from "react-native";
+import { Authenticator } from "./modules/authenticator";
 import MainScreen from "./screens/MainScreen";
+import { Text } from "react-native-paper";
 
 const theme = {
     ...DefaultTheme,

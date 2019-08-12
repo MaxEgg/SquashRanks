@@ -23,7 +23,7 @@ class MainScreen extends React.PureComponent<IMainScreen, IMainScreenState> {
     public render(){
       return (
         <View>
-            <Text>Inside the app</Text>
+            <Text>Inside mainscreen</Text>
         </View>
       )
     };
